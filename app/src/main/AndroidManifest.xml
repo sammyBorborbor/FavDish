@@ -10,7 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FavDish">
         <activity
-            android:name=".SplashActivity"
+            android:name=".view.activities.AddUpdateDishActivity"
+            android:exported="true"
+            android:label="@string/add_dish"
+            android:theme="@style/Theme.FavDish.NoActionBar" />
+        <activity
+            android:name=".view.activities.SplashActivity"
             android:exported="true"
             android:theme="@style/Theme.FavDish.NoActionBar">
             <intent-filter>
@@ -20,9 +25,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".view.activities.MainActivity"
             android:exported="true"
-            android:label="@string/title_activity_main"/>
+            android:label="@string/title_activity_main" />
     </application>
 
 </manifest>

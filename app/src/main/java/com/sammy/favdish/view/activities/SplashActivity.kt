@@ -1,4 +1,4 @@
-package com.sammy.favdish
+package com.sammy.favdish.view.activities
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -11,6 +11,7 @@ import android.view.WindowInsets
 import android.view.WindowManager
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
+import com.sammy.favdish.R
 import com.sammy.favdish.databinding.ActivitySplashBinding
 
 @SuppressLint("CustomSplashScreen")
