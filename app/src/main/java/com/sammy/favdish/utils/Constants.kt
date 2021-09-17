@@ -5,6 +5,25 @@ object Constants {
     const val DISH_CATEGORY: String = "DishCategory"
     const val DISH_COOKING_TIME: String = "DishCookingTime"
 
+    const val DISH_IMAGE_SOURCE_LOCAL : String = "Local"
+    const val DISH_IMAGE_SOURCE_ONLINE : String = "Online"
+
+    const val EXTRA_DISH_DETAILS: String = "DishDetails"
+    const val ALL_ITEMS: String = "All"
+    const val FILTER_SELECTION: String = "FilterSelection"
+
+    const val API_ENDPOINT: String = "recipes/random"
+    const val API_KEY: String = "apiKey"
+    const val TAGS: String = "tags"
+    const val LIMIT_LICENSE: String = "limitLicense"
+    const val NUMBER: String = "number"
+
+    const val BASE_URL: String = "https://api.spoonacular.com/"
+    const val API_KEY_VALUE : String = "5477dd0d51bb42e68c9f09b8a379fa46"
+    const val TAGS_VALUE: String = "vegetarian, dessert"
+    const val LIMIT_LICENSE_VALUE: Boolean = true
+    const val NUMBER_VALUE: Int = 1
+
     /**
      * This function will return the Dish Type List items.
      */
