@@ -49,6 +49,6 @@
     <string name="action_add_dish">Add Dish</string>
     <string name="msg_already_added_to_favorites">You have already added the dish to your favorites.</string>
     <string name="please_wait">Please Wait&#8230;</string>
-
+    <string name="action_share_dish">Share Dish</string>
 
 </resources>
